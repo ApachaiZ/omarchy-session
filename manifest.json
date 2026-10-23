@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "apach.session",
+  "name": "Session",
+  "version": "2.0.0",
+  "author": "apach",
+  "license": "MIT",
+  "description": "Session panel: screen and power actions, power profile, per-monitor display settings, and bar placement controls",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Session",
+    "description": "Lock or blank the screen, run the screensaver, suspend, hibernate, log out, reboot, shut down, and tune displays",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
